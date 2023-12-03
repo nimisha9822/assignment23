@@ -7,9 +7,11 @@ function App() {
  
   return (
     <>
-    <div className="d-flex flex-column align-items-center">
+    <div style={{display : "flex-center"}}>
+      <h1>Users Data</h1>
+   </div>
       <Tabledata/>
-    </div>
+    
     </>
   );
 }
